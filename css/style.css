@@ -115,10 +115,11 @@ body {
   font-weight: 500;
   font-size: 20px;
   margin: 5px 0px;
+  color: rgba(0, 0, 0, 0.747);
 }
 
 .blog-container .blog-content .blog-text-description {
-  font-size: 14px;
+  font-size: 13px;
   margin: 5px 0px;
   margin-bottom: 20px;
   text-align: left;
@@ -208,6 +209,9 @@ body {
     text-align: left;
   }
 
+  .blog-container .blog-content .blog-text-mini-head {
+    display: none;
+  }
   .blog-container .blog-content .blog-text-footer {
     display: none;
   }
