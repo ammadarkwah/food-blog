@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,400;1,200;1,300;1,400&display=swap");
 
 :root {
   --blog-mobile-height: 150px;
+  --description-fonts: "Nunito", sans-serif;
 }
 * {
   padding: 0px;
@@ -91,6 +93,7 @@ body {
   /* justify-content: space-between; */
   font-size: 12px;
 
+  font-family: var(--description-fonts);
   margin: 5px 0px;
 }
 
@@ -123,11 +126,14 @@ body {
   margin: 5px 0px;
   margin-bottom: 20px;
   text-align: left;
+  font-family: var(--description-fonts);
 }
 
 .blog-container .blog-content .blog-text-footer {
   display: flex;
   justify-content: space-between;
+
+  font-family: var(--description-fonts);
 }
 
 .blog-container .blog-content .blog-text-footer .blog-footer-author {
