@@ -254,11 +254,31 @@ body {
   align-items: center;
 }
 
+#blog-header-description {
+  width: 450px;
+  position: relative;
+  left: 200px;
+}
+
 @media (max-width: 500px) {
   .image-header {
     height: 300px;
     width: 100%;
     background-position: center;
     background-size: cover;
+  }
+
+  #blog-header-description {
+    width: calc(80% - 20px);
+    position: relative;
+    left: 20px;
+  }
+
+  #blog-header-description .blog-content {
+    width: 100%;
+  }
+
+  #blog-header-description .blog-content .blog-text-mini-head {
+    display: flex;
   }
 }
