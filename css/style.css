@@ -18,6 +18,9 @@ body {
   text-align: center;
 }
 
+a {
+  text-decoration: none;
+}
 /* blog content */
 .blogs-contents {
   width: calc((300px * 3) + 5%);
