@@ -8,6 +8,12 @@
   font-family: "Noto Sans KR", sans-serif;
 }
 
+.blog-list {
+}
+
+.blog-list .blog-list-item {
+  margin-top: 20px;
+}
 .blog-reader-title {
   font-size: 35px;
 
